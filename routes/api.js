@@ -6,6 +6,7 @@ const {
   trendTendik,
   jumlahTendik,
   jumlahDosen,
+  prosesPakdit,
 } = require("../data");
 
 /* GET home page. */
@@ -29,6 +30,10 @@ router.get("/tendik/trend", (req, res) => {
 
 router.get("/serdos/trend", (req, res) => {
   res.send(trendSerdos).status(200);
+});
+
+router.get("/proses/pakdit", (req, res) => {
+  res.send(prosesPakdit).status(200);
 });
 
 module.exports = router;
