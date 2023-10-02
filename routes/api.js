@@ -4,7 +4,8 @@ const {
   trendSerdos,
   trendDosen,
   trendTendik,
-  jumlahTendik,
+  jumlahTendik23,
+  jumlahTendik22,
   jumlahDosen22,
   jumlahDosen23,
   prosesPakdit,
@@ -17,11 +18,17 @@ router.get("/", function (req, res, next) {
 
 router.get("/dosen/jumlah", (req, res) => {
   const tahun = req.query.tahun;
-  if (tahun === "2023") {
-    res.send(jumlahDosen23).status(200);
-  }
-  if (tahun === "2022") {
-    res.send(jumlahDosen22).status(200);
+  switch (tahun) {
+    case "2023":
+      res.send(jumlahDosen23).status(200);
+      break;
+    case "2022":
+      res.send(jumlahDosen22).status(200);
+      break;
+
+    default:
+      res.send(jumlahDosen23).status(200);
+      break;
   }
 });
 router.get("/dosen/trend", (req, res) => {
@@ -29,7 +36,19 @@ router.get("/dosen/trend", (req, res) => {
 });
 
 router.get("/tendik/jumlah", (req, res) => {
-  res.send(jumlahTendik).status(200);
+  const tahun = req.query.tahun;
+  switch (tahun) {
+    case "2023":
+      res.send(jumlahTendik23).status(200);
+      break;
+    case "2022":
+      res.send(jumlahTendik22).status(200);
+      break;
+
+    default:
+      res.send(jumlahTendik23).status(200);
+      break;
+  }
 });
 router.get("/tendik/trend", (req, res) => {
   res.send(trendTendik).status(200);
