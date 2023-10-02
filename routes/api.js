@@ -5,7 +5,8 @@ const {
   trendDosen,
   trendTendik,
   jumlahTendik,
-  jumlahDosen,
+  jumlahDosen22,
+  jumlahDosen23,
   prosesPakdit,
 } = require("../data");
 
@@ -15,7 +16,13 @@ router.get("/", function (req, res, next) {
 });
 
 router.get("/dosen/jumlah", (req, res) => {
-  res.send(jumlahDosen).status(200);
+  const tahun = req.query.tahun;
+  if (tahun === "2023") {
+    res.send(jumlahDosen23).status(200);
+  }
+  if (tahun === "2022") {
+    res.send(jumlahDosen22).status(200);
+  }
 });
 router.get("/dosen/trend", (req, res) => {
   res.send(trendDosen).status(200);
