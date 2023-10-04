@@ -9,6 +9,7 @@ const {
   jumlahDosen22,
   jumlahDosen23,
   prosesPakdit,
+  jumlahDosenJKU,
 } = require("../data");
 
 /* GET home page. */
@@ -31,6 +32,11 @@ router.get("/dosen/jumlah", (req, res) => {
       break;
   }
 });
+
+router.get("/dosen/jumlah/jkusia", (req, res) => {
+  res.send(jumlahDosenJKU).status(200);
+});
+
 router.get("/dosen/trend", (req, res) => {
   res.send(trendDosen).status(200);
 });

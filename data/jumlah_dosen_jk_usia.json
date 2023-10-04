@@ -1,0 +1,12 @@
+[
+  { "usia": "<30", "jenis_kelamin": "L", "value": 6540 },
+  { "usia": "<30", "jenis_kelamin": "P", "value": 9892 },
+  { "usia": "30-39", "jenis_kelamin": "L", "value": 56083 },
+  { "usia": "30-39", "jenis_kelamin": "P", "value": 63419 },
+  { "usia": "40-49", "jenis_kelamin": "L", "value": 45971 },
+  { "usia": "40-49", "jenis_kelamin": "P", "value": 39197 },
+  { "usia": "50-59", "jenis_kelamin": "L", "value": 44089 },
+  { "usia": "50-59", "jenis_kelamin": "P", "value": 24876 },
+  { "usia": ">60", "jenis_kelamin": "L", "value": 27431 },
+  { "usia": ">60", "jenis_kelamin": "P", "value": 10904 }
+]
