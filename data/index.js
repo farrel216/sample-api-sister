@@ -7,8 +7,19 @@ const jumlahDosenJKU = require("./jumlah_dosen_jk_usia.json");
 const jumlahTendik23 = require("./jumlah_tendik_2023.json");
 const jumlahTendik22 = require("./jumlah_tendik_2022.json");
 const prosesPakdit = require("./proses_pak_dit_sumber_daya.json");
+const golonganDosen = require("./golongan_dosen.json");
+const jabFung = require("./jabatan_fungsional.json");
+const jenjangPendidikan = require("./jenjang_pendidikan.json");
+const bentukPendidikan = require("./bentuk_pendidikan.json");
+const ikatanKerja = require("./ikatan_kerja.json");
+const jumlahSerdos = require("./jumlah_serdos.json");
 
 module.exports = {
+  bentukPendidikan,
+  golonganDosen,
+  jabFung,
+  ikatanKerja,
+  jenjangPendidikan,
   trendDosen,
   trendSerdos,
   trendTendik,
@@ -17,5 +28,6 @@ module.exports = {
   jumlahTendik22,
   jumlahTendik23,
   prosesPakdit,
+  jumlahSerdos,
   jumlahDosenJKU,
 };

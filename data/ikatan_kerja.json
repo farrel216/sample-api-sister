@@ -1,0 +1,13 @@
+﻿[
+  { "name": "Lainnya", "value": 6 },
+  { "name": "Dokter Pendidik Klinis", "value": 1882 },
+  { "name": "Dosen dengan Perjanjian Kerja", "value": 12676 },
+  { "name": "Dosen PNS DPK", "value": 4922 },
+  { "name": "Dosen Tetap", "value": 234088 },
+  { "name": "Dosen Tetap BH", "value": 3056 },
+  { "name": "Dosen Tidak Tetap", "value": 15542 },
+  { "name": "Instruktur", "value": 419 },
+  { "name": "JFT (Jabatan Fungsional Tertentu)", "value": 4 },
+  { "name": "P3K ASN", "value": 56 },
+  { "name": "Tutor", "value": 123 }
+]

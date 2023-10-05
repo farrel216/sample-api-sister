@@ -1,12 +1,7 @@
 [
-  { "usia": "<30", "jenis_kelamin": "L", "value": 6540 },
-  { "usia": "<30", "jenis_kelamin": "P", "value": 9892 },
-  { "usia": "30-39", "jenis_kelamin": "L", "value": 56083 },
-  { "usia": "30-39", "jenis_kelamin": "P", "value": 63419 },
-  { "usia": "40-49", "jenis_kelamin": "L", "value": 45971 },
-  { "usia": "40-49", "jenis_kelamin": "P", "value": 39197 },
-  { "usia": "50-59", "jenis_kelamin": "L", "value": 44089 },
-  { "usia": "50-59", "jenis_kelamin": "P", "value": 24876 },
-  { "usia": ">60", "jenis_kelamin": "L", "value": 27431 },
-  { "usia": ">60", "jenis_kelamin": "P", "value": 10904 }
+  { "usia": "<30", "value_lk": 6540, "value_pr": 9892 },
+  { "usia": "30-39", "value_lk": 56083, "value_pr": 63419 },
+  { "usia": "40-49", "value_lk": 45971, "value_pr": 39197 },
+  { "usia": "50-59", "value_lk": 44089, "value_pr": 24876 },
+  { "usia": ">60", "value_lk": 27431, "value_pr": 10904 }
 ]

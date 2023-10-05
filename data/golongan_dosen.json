@@ -1,0 +1,87 @@
+﻿[
+  {
+    "name": "Tidak Ada Kepangkatan",
+    "value": 1764,
+    "last_update": "2023-10-05T08:38:10"
+  },
+  {
+    "name": "I/a",
+    "value": 28,
+    "last_update": "2023-06-01T19:12:05.470"
+  },
+  {
+    "name": "I/b",
+    "value": 27,
+    "last_update": "2023-06-19T08:30:35"
+  },
+  {
+    "name": "I/d",
+    "value": 1,
+    "last_update": "2019-08-22T08:16:30"
+  },
+  {
+    "name": "II/a",
+    "value": 25,
+    "last_update": "2023-09-06T13:57:00"
+  },
+  {
+    "name": "II/b",
+    "value": 130,
+    "last_update": "2023-09-14T12:39:24"
+  },
+  {
+    "name": "II/c",
+    "value": 8,
+    "last_update": "2023-09-19T13:42:14"
+  },
+  {
+    "name": "II/d",
+    "value": 17,
+    "last_update": "2023-10-05T07:36:31"
+  },
+  {
+    "name": "III/a",
+    "value": 12447,
+    "last_update": "2023-10-05T08:46:34"
+  },
+  {
+    "name": "III/b",
+    "value": 36795,
+    "last_update": "2023-10-05T10:00:08"
+  },
+  {
+    "name": "III/c",
+    "value": 18483,
+    "last_update": "2023-10-05T07:36:31"
+  },
+  {
+    "name": "III/d",
+    "value": 9518,
+    "last_update": "2023-10-05T08:34:46"
+  },
+  {
+    "name": "IV/a",
+    "value": 9372,
+    "last_update": "2023-10-05T08:26:18"
+  },
+  {
+    "name": "IV/b",
+    "value": 4067,
+    "last_update": "2023-10-05T07:35:49"
+  },
+  {
+    "name": "IV/c",
+    "value": 2232,
+    "last_update": "2023-10-05T07:36:02"
+  },
+  {
+    "name": "IV/d",
+    "value": 1199,
+    "last_update": "2023-10-05T07:34:23"
+  },
+  {
+    "name": "IV/e",
+    "value": 294,
+    "last_update": "2023-10-05T07:33:57"
+  }
+]

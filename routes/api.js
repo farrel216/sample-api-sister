@@ -10,6 +10,12 @@ const {
   jumlahDosen23,
   prosesPakdit,
   jumlahDosenJKU,
+  golonganDosen,
+  jabFung,
+  jenjangPendidikan,
+  bentukPendidikan,
+  ikatanKerja,
+  jumlahSerdos,
 } = require("../data");
 
 /* GET home page. */
@@ -33,8 +39,23 @@ router.get("/dosen/jumlah", (req, res) => {
   }
 });
 
-router.get("/dosen/jumlah/jkusia", (req, res) => {
+router.get("/dosen/jkusia", (req, res) => {
   res.send(jumlahDosenJKU).status(200);
+});
+router.get("/dosen/golongan", (req, res) => {
+  res.send(golonganDosen).status(200);
+});
+router.get("/dosen/jabfung", (req, res) => {
+  res.send(jabFung).status(200);
+});
+router.get("/dosen/jenjangpend", (req, res) => {
+  res.send(jenjangPendidikan).status(200);
+});
+router.get("/dosen/bentukpend", (req, res) => {
+  res.send(bentukPendidikan).status(200);
+});
+router.get("/dosen/ikatankerja", (req, res) => {
+  res.send(ikatanKerja).status(200);
 });
 
 router.get("/dosen/trend", (req, res) => {
@@ -66,6 +87,9 @@ router.get("/serdos/trend", (req, res) => {
 
 router.get("/proses/pakdit", (req, res) => {
   res.send(prosesPakdit).status(200);
+});
+router.get("/serdos/jumlah", (req, res) => {
+  res.send(jumlahSerdos).status(200);
 });
 
 module.exports = router;
