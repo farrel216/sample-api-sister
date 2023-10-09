@@ -18,42 +18,22 @@ const {
   jumlahSerdos,
 } = require("../data");
 
+const db = require("../db/connection");
+
 /* GET home page. */
 router.get("/", function (req, res, next) {
   res.send("Akses api berhasil");
 });
 
-router.get("/dosen/jumlah", (req, res) => {
-  const tahun = req.query.tahun;
-  switch (tahun) {
-    case "2023":
-      res.send(jumlahDosen23).status(200);
-      break;
-    case "2022":
-      res.send(jumlahDosen22).status(200);
-      break;
-
-    default:
-      res.send(jumlahDosen23).status(200);
-      break;
-  }
-});
+router.get("/dosen", db.getJumlahDosen);
 
 router.get("/dosen/jkusia", (req, res) => {
   res.send(jumlahDosenJKU).status(200);
 });
-router.get("/dosen/golongan", (req, res) => {
-  res.send(golonganDosen).status(200);
-});
-router.get("/dosen/jabfung", (req, res) => {
-  res.send(jabFung).status(200);
-});
-router.get("/dosen/jenjangpend", (req, res) => {
-  res.send(jenjangPendidikan).status(200);
-});
-router.get("/dosen/bentukpend", (req, res) => {
-  res.send(bentukPendidikan).status(200);
-});
+router.get("/dosen/golongan", db.getGolonganDosen);
+router.get("/dosen/jabfung", db.getJabfungDosen);
+router.get("/dosen/jenjangpend", db.getJenjangDosen);
+router.get("/dosen/bentukpend", db.getBentukPendidikan);
 router.get("/dosen/ikatankerja", (req, res) => {
   res.send(ikatanKerja).status(200);
 });
@@ -81,15 +61,11 @@ router.get("/tendik/trend", (req, res) => {
   res.send(trendTendik).status(200);
 });
 
-router.get("/serdos/trend", (req, res) => {
-  res.send(trendSerdos).status(200);
-});
+router.get("/serdos/trend", db.getTrendSerdos);
 
 router.get("/proses/pakdit", (req, res) => {
   res.send(prosesPakdit).status(200);
 });
-router.get("/serdos/jumlah", (req, res) => {
-  res.send(jumlahSerdos).status(200);
-});
+router.get("/serdos/jumlah", db.getSertifikasiDosen);
 
 module.exports = router;
