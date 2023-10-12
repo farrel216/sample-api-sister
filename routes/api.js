@@ -14,6 +14,7 @@ const {
   jabFung,
   jenjangPendidikan,
   bentukPendidikan,
+  trendBentukPendidikan,
   ikatanKerja,
   jumlahSerdos,
 } = require("../data");
@@ -53,6 +54,9 @@ router.get("/dosen/jenjangpend", (req, res) => {
 });
 router.get("/dosen/bentukpend", (req, res) => {
   res.send(bentukPendidikan).status(200);
+});
+router.get("/dosen/trendbentukpend", (req, res) => {
+  res.send(trendBentukPendidikan).status(200);
 });
 router.get("/dosen/ikatankerja", (req, res) => {
   res.send(ikatanKerja).status(200);

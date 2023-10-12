@@ -11,11 +11,13 @@ const golonganDosen = require("./golongan_dosen.json");
 const jabFung = require("./jabatan_fungsional.json");
 const jenjangPendidikan = require("./jenjang_pendidikan.json");
 const bentukPendidikan = require("./bentuk_pendidikan.json");
+const trendBentukPendidikan = require("./trend_bentuk_pendidikan.json");
 const ikatanKerja = require("./ikatan_kerja.json");
 const jumlahSerdos = require("./jumlah_serdos.json");
 
 module.exports = {
   bentukPendidikan,
+  trendBentukPendidikan,
   golonganDosen,
   jabFung,
   ikatanKerja,
