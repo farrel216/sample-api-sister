@@ -16,8 +16,11 @@ const ikatanKerja = require("./ikatan_kerja.json");
 const jumlahSerdos = require("./jumlah_serdos.json");
 const trendUsulanSerdos = require("./trend_usulanserdos.json");
 const trendStatKepegawaian = require("./trend_statpegawai.json");
+const prosesSerdos = require("./proses_serdos.json");
+const prosesBKD = require("./proses_bkd.json");
 
 module.exports = {
+  prosesSerdos,
   bentukPendidikan,
   trendBentukPendidikan,
   golonganDosen,
@@ -36,4 +39,5 @@ module.exports = {
   jumlahDosenJKU,
   trendUsulanSerdos,
   trendStatKepegawaian,
+  prosesBKD,
 };

@@ -19,6 +19,8 @@ const {
   jumlahSerdos,
   trendUsulanSerdos,
   trendStatKepegawaian,
+  prosesSerdos,
+  prosesBKD,
 } = require("../data");
 
 /* GET home page. */
@@ -93,6 +95,12 @@ router.get("/serdos/trend", (req, res) => {
 
 router.get("/proses/pakdit", (req, res) => {
   res.send(prosesPakdit).status(200);
+});
+router.get("/proses/serdos", (req, res) => {
+  res.send(prosesSerdos).status(200);
+});
+router.get("/proses/bkd", (req, res) => {
+  res.send(prosesBKD).status(200);
 });
 router.get("/serdos/jumlah", (req, res) => {
   res.send(jumlahSerdos).status(200);
