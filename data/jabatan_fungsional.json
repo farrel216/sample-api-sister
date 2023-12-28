@@ -1,7 +1,22 @@
 ﻿[
-  { "name": "Profesor", "value": 9121 },
-  { "name": "Asisten Ahli", "value": 160075 },
-  { "name": "Lektor", "value": 121751 },
-  { "name": "Lainnya", "value": 643 },
-  { "name": "Lektor Kepala", "value": 35664 }
+  {
+    "jabfung": "Asisten Ahli",
+    "total": 166446
+  },
+  {
+    "jabfung": "Lainnya",
+    "total": 675
+  },
+  {
+    "jabfung": "Lektor",
+    "total": 129989
+  },
+  {
+    "jabfung": "Lektor Kepala",
+    "total": 38757
+  },
+  {
+    "jabfung": "Profesor",
+    "total": 10573
+  }
 ]

@@ -1,8 +1,26 @@
 ﻿[
-  { "name": "Universitas", "value": 174288 },
-  { "name": "Akademi", "value": 7384 },
-  { "name": "Politeknik", "value": 21763 },
-  { "name": "Sekolah Tinggi", "value": 45020 },
-  { "name": "Institut", "value": 24017 },
-  { "name": "Akademi Komunitas", "value": 311 }
+  {
+    "name": "Akademi",
+    "value": 7377
+  },
+  {
+    "name": "Akademi Komunitas",
+    "value": 328
+  },
+  {
+    "name": "Institut",
+    "value": 24073
+  },
+  {
+    "name": "Politeknik",
+    "value": 21746
+  },
+  {
+    "name": "Sekolah Tinggi",
+    "value": 44432
+  },
+  {
+    "name": "Universitas",
+    "value": 174944
+  }
 ]
