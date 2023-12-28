@@ -17,6 +17,8 @@ const {
   trendBentukPendidikan,
   ikatanKerja,
   jumlahSerdos,
+  trendUsulanSerdos,
+  trendStatKepegawaian,
 } = require("../data");
 
 /* GET home page. */
@@ -96,4 +98,11 @@ router.get("/serdos/jumlah", (req, res) => {
   res.send(jumlahSerdos).status(200);
 });
 
+router.get("/usulanserdos/trend", (req, res) => {
+  res.send(trendUsulanSerdos).status(200);
+});
+
+router.get("/statkepegawaian/trend", (req, res) => {
+  res.send(trendStatKepegawaian).status(200);
+});
 module.exports = router;

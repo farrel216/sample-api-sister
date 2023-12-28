@@ -1,10 +1,22 @@
 [
-  { "nidn_group": "NIDN", "thn_sert": 2020, "jumlah_sert": 9671 },
-  { "nidn_group": "NIDK", "thn_sert": 2020, "jumlah_sert": 293 },
-  { "nidn_group": "NIDN", "thn_sert": 2021, "jumlah_sert": 6794 },
-  { "nidn_group": "NIDK", "thn_sert": 2021, "jumlah_sert": 55 },
-  { "nidn_group": "NIDN", "thn_sert": 2022, "jumlah_sert": 7403 },
-  { "nidn_group": "NIDK", "thn_sert": 2022, "jumlah_sert": 92 },
-  { "nidn_group": "NIDN", "thn_sert": 2023, "jumlah_sert": 4557 },
-  { "nidn_group": "NIDK", "thn_sert": 2023, "jumlah_sert": 54 }
+  {
+    "tahun": "2020",
+    "value_nidn": 10279,
+    "value_nidk": 363
+  },
+  {
+    "tahun": "2021",
+    "value_nidn": 13238,
+    "value_nidk": 289
+  },
+  {
+    "tahun": "2022",
+    "value_nidn": 19087,
+    "value_nidk": 381
+  },
+  {
+    "tahun": "2023",
+    "value_nidn": 9542,
+    "value_nidk": 102
+  }
 ]

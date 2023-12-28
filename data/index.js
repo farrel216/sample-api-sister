@@ -14,6 +14,8 @@ const bentukPendidikan = require("./bentuk_pendidikan.json");
 const trendBentukPendidikan = require("./trend_bentuk_pendidikan.json");
 const ikatanKerja = require("./ikatan_kerja.json");
 const jumlahSerdos = require("./jumlah_serdos.json");
+const trendUsulanSerdos = require("./trend_usulanserdos.json");
+const trendStatKepegawaian = require("./trend_statpegawai.json");
 
 module.exports = {
   bentukPendidikan,
@@ -32,4 +34,6 @@ module.exports = {
   prosesPakdit,
   jumlahSerdos,
   jumlahDosenJKU,
+  trendUsulanSerdos,
+  trendStatKepegawaian,
 };
